@@ -1,0 +1,187 @@
+/* style.css - Ming Furniture - Classical Chinese Design */
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #f5f0eb;
+  color: #4b2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #a9745d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 8px double #70483c;
+}
+
+.logo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+nav {
+  background-color: #d8c3a5;
+  padding: 10px;
+  border-top: 3px solid #c49b7d;
+  border-bottom: 3px solid #c49b7d;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b2e2e;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: #a74c3c;
+}
+
+section {
+  padding: 40px 20px;
+  background-color: #fffaf5;
+  border-top: 1px solid #e0d0c0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 30px;
+}
+
+article {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: "Palatino Linotype", serif;
+  color: #7a3e3e;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1.05em;
+  margin-bottom: 20px;
+}
+
+img:not(.logo) {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 4px solid #c49b7d;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul.custom-list {
+  list-style-image: url('../img/bullet.png');
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #4b2e2e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer address {
+  font-style: normal;
+  color: #ddd;
+}
+
+a:link {
+  color: gold;
+  text-decoration: none;
+}
+a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+section h1 {
+  color: #4b2e2e;
+}
+
+/* Table Styling */
+table {
+  font-weight: bold;
+  color: #4b2e2e;
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #f9f0e6;
+  border: 2px solid #c49b7d;
+}
+
+td, th {
+  border: 1px solid #bfa897;
+  padding: 12px;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Form Styling */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #c49b7d;
+  border-radius: 5px;
+  font-family: Georgia, serif;
+}
+
+button {
+  background-color: #a9745d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #7f5949;
+}
+
+/* Special Highlight Box */
+#highlight {
+  background-color: #fff1e6;
+  border-left: 5px solid #a9745d;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* First Letter Styling for Intro Text */
+.intro::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  color: #a74c3c;
+}
+
+.gallery-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #c49b7d;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
